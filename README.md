@@ -152,15 +152,16 @@ __5. Creates a second, independent tidy data set with the average of each variab
 
 
 
-Location of saved 'dataTidy.txt'         
+__Location of saved 'dataTidy.txt'__         
 
-- 'dataTidy.txt' will be saved in the current working directory ('UCI HAR Dataset' folder).    
+- After running 'run_analysis.R', 'dataTidy.txt' will be saved in the current working directory ('UCI HAR Dataset' folder).    
                 
-Opening 'dataTidy.txt'              
+__Opening 'dataTidy.txt'__
+
+- To upload dataTidy.txt into R, use read.table(yourPathHere) using the path to the location of 'dataTidy.txt'.
 
 - To open dataTidy.txt with Excel, delimit with space.
 
-- To upload dataTidy.txt into R, use read.table(yourPathHere) using the path to the location of 'dataTidy.txt'.
 
 
 
