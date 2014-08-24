@@ -62,6 +62,15 @@ Further details on these sections may be found on the Coursera 'Getting and Clea
 
 
 
+__BEFORE YOU BEGIN!__
+
+- Manually set the working directory to the location of the 'UCI HAR Dataset' folder. 
+
+- run_analysis.R code will point to folders and files within the 'UCI HAR Dataset' folder.
+
+
+
+
 __1. Merges the training and the test sets to create one data set__
 
 - Location of test data, train data and working directory established.

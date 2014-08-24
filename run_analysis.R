@@ -13,27 +13,31 @@
 
 #___________________________________________________________________________________________
 
+#### BEFORE YOU BEGIN!
+
+# Manually set the working directory to the location of the 'UCI HAR Dataset' folder 
+
+# Code will point to folders and files within the 'UCI HAR Dataset' folder
+
+
+# UCI HAR Dataset
+        # test
+                # subject_test.txt
+                # X_test.txt
+                # y_test.txt
+        # train
+                # subject_train.txt
+                # X_train.txt
+                # y_train.txt
+
+#___________________________________________________________________________________________
+
 #### 1. Merges the training and the test sets to create one data set.
 
-
-### Working directory - point to training and test files
-        # User will have 'UCI HAR Dataset' folder with the following directories
-
-        # UCI HAR Dataset
-                # test
-                        # subject_test.txt
-                        # X_test.txt
-                        # y_test.txt
-                # train
-                        # subject_train.txt
-                        # X_train.txt
-                        # y_train.txt
-
+        
 # data folder dir location
-        # User to update directory of 'UCI HAR Dataset' folder location
-        # EXAMPLE If 'UCI HAR Dataset' is in C-drive, dirData is "C:/UCI HAR Dataset/"
-        dirData <- "C:/R/Coursera/Getting and Cleaning Data/Course Project/UCI HAR Dataset/"
-
+        dirData <- paste(getwd(), "/", sep="") # user to manually set to 'UCI HAR Dataset'     
+        
 # test data dir
         dirTest <- paste(dirData, "test/", sep="")
 
@@ -41,7 +45,7 @@
         dirTrain <- paste(dirData, "train/", sep="")
 
 # Set the data dir
-        setwd(dirData)
+#        setwd(dirData)
 
 
 ### Import files

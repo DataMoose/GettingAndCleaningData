@@ -526,6 +526,10 @@ __DETAILS OF DATA TRANSFORMATIONS TO PRODUCE TIDY DATASET__
 
 The 'run_analysis.R' code will import the original data set and perform a number of transformations to produce a tidy data text file (dataTidy.txt). The transformation steps are listed below and detailed in 'README.md'.
 
+
+- User must manually set the working directory to the location of the 'UCI HAR Dataset' folder.
+
+
 __1. Merges the training and the test sets to create one data set__
 
 - Location of test data, train data and working directory established.
